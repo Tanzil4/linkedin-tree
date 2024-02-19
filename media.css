@@ -2,6 +2,10 @@
  .box{
     width: 60%;
  }
+ .cube{
+    width: 7px;
+    height: 7px;
+ }
 }
 @media screen and (max-width:768px){
     .box{
@@ -16,6 +20,10 @@
     .three-dot{
         margin-left: 110px;
     }
+    .cube{
+        width: 7px;
+        height: 7px;
+     }
    }
    @media screen and (max-width:500px){
     .box{
@@ -33,6 +41,10 @@
     .three-dot{
         margin-left: 90px;
     }
+    .cube{
+        width: 5px;
+        height: 5px;
+     }
    }
    @media screen and (max-width:390px){
     .box{
@@ -62,4 +74,8 @@
         margin-left: 80px;
         font-size: 13px;
     }
+    .cube{
+        width: 4px;
+        height: 4px;
+     }
    }
